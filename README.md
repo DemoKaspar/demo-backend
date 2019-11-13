@@ -9,6 +9,7 @@ Developer Platform. ([humanitec.com](https://humanitec.com))
 ## Configuration
 
 The app accepts database configuration via these enviornmental variables:
+
 | Variable | Description |
 |--|--|
 | `DATABASE_HOST` | The DNS name or IP of the Database server |
