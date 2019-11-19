@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  zed:
+  demo_backend:
     build: .
 
     expose:
@@ -11,15 +11,15 @@ services:
       - "8080:8080"
 
     depends_on:
-      - zeddb
+      - demodb
 
     environment:
-      DATABASE_HOST: zeddb
-      DATABASE_NAME: zed
-      DATABASE_USER: zed_robot
-      DATABASE_PASSWORD: "z3dr0b0t"
+      DATABASE_HOST: demodb
+      DATABASE_NAME: demo
+      DATABASE_USER: demo_robot
+      DATABASE_PASSWORD: "d3m0r0b0t"
 
-  zeddb:
+  demodb:
     image: postgres:11
 
     volumes:

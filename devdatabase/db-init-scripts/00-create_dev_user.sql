@@ -1,4 +1,4 @@
 
-CREATE USER zed_robot WITH PASSWORD 'z3dr0b0t';
+CREATE USER demo_robot WITH PASSWORD 'd3m0r0b0t';
 
-CREATE DATABASE zed OWNER zed_robot;
+CREATE DATABASE demodb OWNER demo_robot;

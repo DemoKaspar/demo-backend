@@ -37,10 +37,10 @@ After that, the server can be run with the following command:
 
 ```
 $ DATABASE_HOST="localhost" \
-  DATABASE_NAME="zed" \
-  DATABASE_USER="zed_robot" \
-  DATABASE_PASSWORD="z3dr0b0t" \
+  DATABASE_NAME="demo" \
+  DATABASE_USER="demo_robot" \
+  DATABASE_PASSWORD="d3m0r0b0t" \
   node index.js
 ```
 
-Assuming the database server is running on `localhost` on `5432` with a database called `zed` created by a user called `zed_robot` with password `z3dr0b0t`.
+Assuming the database server is running on `localhost` on `5432` with a database called `demodb` created by a user called `demo_robot` with password `d3m0r0b0t`.
