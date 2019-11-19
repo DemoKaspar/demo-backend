@@ -6,6 +6,8 @@ This is a simple Node.js backend app that creates and stores hypothetical produc
 
 The app exposes an API on `/products` that allows you to create and list product items. Products are stored in a single table in a Postgres database.
 
+This backend is **pre-configured** to work with Walhall. All you have to do is fork it into your **organization account,** add it to your Walhall app, and click **Deploy.** No changes to the code are necessary.
+
 ## Configuration
 
 You can configure the app's database with these environmental variables:
